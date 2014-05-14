@@ -19,6 +19,9 @@
 		7297628C1922AE3B003C31B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729762741922AE3B003C31B5 /* UIKit.framework */; };
 		729762941922AE3B003C31B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 729762921922AE3B003C31B5 /* InfoPlist.strings */; };
 		729762A91922C674003C31B5 /* FISViewSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 729762A81922C674003C31B5 /* FISViewSpec.m */; };
+		729762AE1923BEC9003C31B5 /* FISHellaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729762AB1923BEC9003C31B5 /* FISHellaDetailViewController.m */; };
+		729762AF1923BEC9003C31B5 /* FISHellaMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729762AD1923BEC9003C31B5 /* FISHellaMasterTableViewController.m */; };
+		729762B21923C058003C31B5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729762B11923C058003C31B5 /* Storyboard.storyboard */; };
 		BB469E783127415EB50FDC0A /* libPods-HellaCells.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B49F40C52B514FF39D8EA116 /* libPods-HellaCells.a */; };
 		D60293ECD2E348E69B99D0CC /* libPods-HellaCellsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C20566C11B148CEA2D84283 /* libPods-HellaCellsTests.a */; };
 /* End PBXBuildFile section */
@@ -52,6 +55,11 @@
 		729762911922AE3B003C31B5 /* HellaCellsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HellaCellsTests-Info.plist"; sourceTree = "<group>"; };
 		729762931922AE3B003C31B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		729762A81922C674003C31B5 /* FISViewSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewSpec.m; sourceTree = "<group>"; };
+		729762AA1923BEC9003C31B5 /* FISHellaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISHellaDetailViewController.h; sourceTree = "<group>"; };
+		729762AB1923BEC9003C31B5 /* FISHellaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISHellaDetailViewController.m; sourceTree = "<group>"; };
+		729762AC1923BEC9003C31B5 /* FISHellaMasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISHellaMasterTableViewController.h; sourceTree = "<group>"; };
+		729762AD1923BEC9003C31B5 /* FISHellaMasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISHellaMasterTableViewController.m; sourceTree = "<group>"; };
+		729762B11923C058003C31B5 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		AB2E638354A74892BE7EB51F /* Pods-HellaCells.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HellaCells.xcconfig"; path = "Pods/Pods-HellaCells.xcconfig"; sourceTree = "<group>"; };
 		B49F40C52B514FF39D8EA116 /* libPods-HellaCells.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HellaCells.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -119,6 +127,8 @@
 		729762761922AE3B003C31B5 /* HellaCells */ = {
 			isa = PBXGroup;
 			children = (
+				729762B11923C058003C31B5 /* Storyboard.storyboard */,
+				729762B01923BED1003C31B5 /* controllers */,
 				7297627F1922AE3B003C31B5 /* FISAppDelegate.h */,
 				729762801922AE3B003C31B5 /* FISAppDelegate.m */,
 				729762821922AE3B003C31B5 /* Images.xcassets */,
@@ -154,6 +164,17 @@
 				729762921922AE3B003C31B5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		729762B01923BED1003C31B5 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				729762AA1923BEC9003C31B5 /* FISHellaDetailViewController.h */,
+				729762AB1923BEC9003C31B5 /* FISHellaDetailViewController.m */,
+				729762AC1923BEC9003C31B5 /* FISHellaMasterTableViewController.h */,
+				729762AD1923BEC9003C31B5 /* FISHellaMasterTableViewController.m */,
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +259,7 @@
 			files = (
 				7297627B1922AE3B003C31B5 /* InfoPlist.strings in Resources */,
 				729762831922AE3B003C31B5 /* Images.xcassets in Resources */,
+				729762B21923C058003C31B5 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +342,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7297627D1922AE3B003C31B5 /* main.m in Sources */,
+				729762AF1923BEC9003C31B5 /* FISHellaMasterTableViewController.m in Sources */,
 				729762811922AE3B003C31B5 /* FISAppDelegate.m in Sources */,
+				729762AE1923BEC9003C31B5 /* FISHellaDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
