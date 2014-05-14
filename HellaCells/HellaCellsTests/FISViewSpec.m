@@ -29,16 +29,27 @@ describe(@"integration tests", ^{
     });
     
     it(@"should have 100 cells, each with the correct number", ^{
-        UITableView *tableView = (UITableView *)[tester waitForViewWithAccessibilityLabel:@"Table"];
-        for(int x = 0; x < [tableView numberOfRowsInSection:0]; x++)
+        for(int x = 0; x < 5; x++)
         {
-            NSIndexPath *ip = [NSIndexPath indexPathForRow:x inSection:0];
+            NSInteger randomRow =1 + arc4random()%100;
+            NSIndexPath *ip = [NSIndexPath indexPathForRow:randomRow inSection:0];
             UITableViewCell *cell = [tester waitForCellAtIndexPath:ip inTableViewWithAccessibilityIdentifier:@"Table"];
-            NSString *correctString = [NSString stringWithFormat:@"%d",x+1];
+            NSString *correctString = [NSString stringWithFormat:@"%d", randomRow+1];
             expect(cell.textLabel.text).to.equal(correctString);
-//            expect(cell.textLabel.text).to.equal([NSString stringWithFormat:@"%i", x+1]);
         }
-    });  
+    });
+    
+    it(@"should present a detail view with the correct number in a large font",^{
+        NSInteger randomRow = 1 + arc4random()%100;
+        NSIndexPath *ip = [NSIndexPath indexPathForRow:randomRow inSection:0];
+        
+        [tester tapRowAtIndexPath:ip inTableViewWithAccessibilityIdentifier:@"Table"];
+        UILabel *label = (UILabel *)[tester waitForViewWithAccessibilityLabel:@"bigNumber"];
+        
+        expect(label.text).to.equal([NSString stringWithFormat:@"%d", randomRow+1]);
+        expect(label.font.pointSize).to.beGreaterThanOrEqualTo(50.0f);
+        
+    });
     
     afterEach(^{
 
