@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		721DFB6219EEFF6B00132073 /* FISViewSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 721DFB6119EEFF6B00132073 /* FISViewSpec.m */; };
+		721DFB6A19EF01A300132073 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721DFB6919EF01A300132073 /* Storyboard.storyboard */; };
 		728B988B19EEEFEB000F274D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 728B988A19EEEFEB000F274D /* main.m */; };
 		728B988E19EEEFEB000F274D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 728B988D19EEEFEB000F274D /* AppDelegate.m */; };
-		728B989119EEEFEB000F274D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 728B989019EEEFEB000F274D /* ViewController.m */; };
-		728B989419EEEFEB000F274D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728B989219EEEFEB000F274D /* Main.storyboard */; };
 		728B989619EEEFEB000F274D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728B989519EEEFEB000F274D /* Images.xcassets */; };
 		728B989919EEEFEB000F274D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 728B989719EEEFEB000F274D /* LaunchScreen.xib */; };
 		AC258099A25EB4830D99815D /* libPods-HellaCellsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3326D7C1069EDA1B7A3400FE /* libPods-HellaCellsTests.a */; };
@@ -31,14 +30,12 @@
 		3326D7C1069EDA1B7A3400FE /* libPods-HellaCellsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HellaCellsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39846CB05D69015C086572EF /* Pods-HellaCellsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HellaCellsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HellaCellsTests/Pods-HellaCellsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		721DFB6119EEFF6B00132073 /* FISViewSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewSpec.m; sourceTree = "<group>"; };
+		721DFB6919EF01A300132073 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		728B988519EEEFEB000F274D /* HellaCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellaCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		728B988919EEEFEB000F274D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		728B988A19EEEFEB000F274D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		728B988C19EEEFEB000F274D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		728B988D19EEEFEB000F274D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		728B988F19EEEFEB000F274D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		728B989019EEEFEB000F274D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		728B989319EEEFEB000F274D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		728B989519EEEFEB000F274D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		728B989819EEEFEB000F274D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		728B989E19EEEFEB000F274D /* HellaCellsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellaCellsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,9 +95,7 @@
 			children = (
 				728B988C19EEEFEB000F274D /* AppDelegate.h */,
 				728B988D19EEEFEB000F274D /* AppDelegate.m */,
-				728B988F19EEEFEB000F274D /* ViewController.h */,
-				728B989019EEEFEB000F274D /* ViewController.m */,
-				728B989219EEEFEB000F274D /* Main.storyboard */,
+				721DFB6919EF01A300132073 /* Storyboard.storyboard */,
 				728B989519EEEFEB000F274D /* Images.xcassets */,
 				728B989719EEEFEB000F274D /* LaunchScreen.xib */,
 				728B988819EEEFEB000F274D /* Supporting Files */,
@@ -225,7 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				728B989419EEEFEB000F274D /* Main.storyboard in Resources */,
+				721DFB6A19EF01A300132073 /* Storyboard.storyboard in Resources */,
 				728B989919EEEFEB000F274D /* LaunchScreen.xib in Resources */,
 				728B989619EEEFEB000F274D /* Images.xcassets in Resources */,
 			);
@@ -278,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				728B989119EEEFEB000F274D /* ViewController.m in Sources */,
 				728B988E19EEEFEB000F274D /* AppDelegate.m in Sources */,
 				728B988B19EEEFEB000F274D /* main.m in Sources */,
 			);
@@ -303,14 +297,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		728B989219EEEFEB000F274D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				728B989319EEEFEB000F274D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		728B989719EEEFEB000F274D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
