@@ -7,188 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		729762711922AE3B003C31B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729762701922AE3B003C31B5 /* Foundation.framework */; };
-		729762731922AE3B003C31B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729762721922AE3B003C31B5 /* CoreGraphics.framework */; };
-		729762751922AE3B003C31B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729762741922AE3B003C31B5 /* UIKit.framework */; };
-		7297627B1922AE3B003C31B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 729762791922AE3B003C31B5 /* InfoPlist.strings */; };
-		7297627D1922AE3B003C31B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7297627C1922AE3B003C31B5 /* main.m */; };
-		729762811922AE3B003C31B5 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 729762801922AE3B003C31B5 /* FISAppDelegate.m */; };
-		729762831922AE3B003C31B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729762821922AE3B003C31B5 /* Images.xcassets */; };
-		7297628A1922AE3B003C31B5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729762891922AE3B003C31B5 /* XCTest.framework */; };
-		7297628B1922AE3B003C31B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729762701922AE3B003C31B5 /* Foundation.framework */; };
-		7297628C1922AE3B003C31B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729762741922AE3B003C31B5 /* UIKit.framework */; };
-		729762941922AE3B003C31B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 729762921922AE3B003C31B5 /* InfoPlist.strings */; };
-		729762A91922C674003C31B5 /* FISViewSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 729762A81922C674003C31B5 /* FISViewSpec.m */; };
-		729762AE1923BEC9003C31B5 /* FISHellaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729762AB1923BEC9003C31B5 /* FISHellaDetailViewController.m */; };
-		729762AF1923BEC9003C31B5 /* FISHellaMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729762AD1923BEC9003C31B5 /* FISHellaMasterTableViewController.m */; };
-		729762B21923C058003C31B5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729762B11923C058003C31B5 /* Storyboard.storyboard */; };
-		BB469E783127415EB50FDC0A /* libPods-HellaCells.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B49F40C52B514FF39D8EA116 /* libPods-HellaCells.a */; };
-		D60293ECD2E348E69B99D0CC /* libPods-HellaCellsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C20566C11B148CEA2D84283 /* libPods-HellaCellsTests.a */; };
+		728B988B19EEEFEB000F274D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 728B988A19EEEFEB000F274D /* main.m */; };
+		728B988E19EEEFEB000F274D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 728B988D19EEEFEB000F274D /* AppDelegate.m */; };
+		728B989119EEEFEB000F274D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 728B989019EEEFEB000F274D /* ViewController.m */; };
+		728B989419EEEFEB000F274D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728B989219EEEFEB000F274D /* Main.storyboard */; };
+		728B989619EEEFEB000F274D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728B989519EEEFEB000F274D /* Images.xcassets */; };
+		728B989919EEEFEB000F274D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 728B989719EEEFEB000F274D /* LaunchScreen.xib */; };
+		728B98A519EEEFEB000F274D /* HellaCellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 728B98A419EEEFEB000F274D /* HellaCellsTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7297628D1922AE3B003C31B5 /* PBXContainerItemProxy */ = {
+		728B989F19EEEFEB000F274D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 729762651922AE3B003C31B5 /* Project object */;
+			containerPortal = 728B987D19EEEFEB000F274D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7297626C1922AE3B003C31B5;
+			remoteGlobalIDString = 728B988419EEEFEB000F274D;
 			remoteInfo = HellaCells;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C20566C11B148CEA2D84283 /* libPods-HellaCellsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HellaCellsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		42C03A7F3E944D4387932116 /* Pods-HellaCellsTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HellaCellsTests.xcconfig"; path = "Pods/Pods-HellaCellsTests.xcconfig"; sourceTree = "<group>"; };
-		7297626D1922AE3B003C31B5 /* HellaCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellaCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		729762701922AE3B003C31B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		729762721922AE3B003C31B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		729762741922AE3B003C31B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		729762781922AE3B003C31B5 /* HellaCells-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HellaCells-Info.plist"; sourceTree = "<group>"; };
-		7297627A1922AE3B003C31B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7297627C1922AE3B003C31B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7297627E1922AE3B003C31B5 /* HellaCells-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HellaCells-Prefix.pch"; sourceTree = "<group>"; };
-		7297627F1922AE3B003C31B5 /* FISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
-		729762801922AE3B003C31B5 /* FISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
-		729762821922AE3B003C31B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		729762881922AE3B003C31B5 /* HellaCellsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellaCellsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		729762891922AE3B003C31B5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		729762911922AE3B003C31B5 /* HellaCellsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HellaCellsTests-Info.plist"; sourceTree = "<group>"; };
-		729762931922AE3B003C31B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		729762A81922C674003C31B5 /* FISViewSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewSpec.m; sourceTree = "<group>"; };
-		729762AA1923BEC9003C31B5 /* FISHellaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISHellaDetailViewController.h; sourceTree = "<group>"; };
-		729762AB1923BEC9003C31B5 /* FISHellaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISHellaDetailViewController.m; sourceTree = "<group>"; };
-		729762AC1923BEC9003C31B5 /* FISHellaMasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISHellaMasterTableViewController.h; sourceTree = "<group>"; };
-		729762AD1923BEC9003C31B5 /* FISHellaMasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISHellaMasterTableViewController.m; sourceTree = "<group>"; };
-		729762B11923C058003C31B5 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		AB2E638354A74892BE7EB51F /* Pods-HellaCells.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HellaCells.xcconfig"; path = "Pods/Pods-HellaCells.xcconfig"; sourceTree = "<group>"; };
-		B49F40C52B514FF39D8EA116 /* libPods-HellaCells.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HellaCells.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		728B988519EEEFEB000F274D /* HellaCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellaCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		728B988919EEEFEB000F274D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728B988A19EEEFEB000F274D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		728B988C19EEEFEB000F274D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		728B988D19EEEFEB000F274D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		728B988F19EEEFEB000F274D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		728B989019EEEFEB000F274D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		728B989319EEEFEB000F274D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		728B989519EEEFEB000F274D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		728B989819EEEFEB000F274D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		728B989E19EEEFEB000F274D /* HellaCellsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellaCellsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		728B98A319EEEFEB000F274D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		728B98A419EEEFEB000F274D /* HellaCellsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HellaCellsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7297626A1922AE3B003C31B5 /* Frameworks */ = {
+		728B988219EEEFEB000F274D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				729762731922AE3B003C31B5 /* CoreGraphics.framework in Frameworks */,
-				729762751922AE3B003C31B5 /* UIKit.framework in Frameworks */,
-				729762711922AE3B003C31B5 /* Foundation.framework in Frameworks */,
-				BB469E783127415EB50FDC0A /* libPods-HellaCells.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		729762851922AE3B003C31B5 /* Frameworks */ = {
+		728B989B19EEEFEB000F274D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7297628A1922AE3B003C31B5 /* XCTest.framework in Frameworks */,
-				7297628C1922AE3B003C31B5 /* UIKit.framework in Frameworks */,
-				7297628B1922AE3B003C31B5 /* Foundation.framework in Frameworks */,
-				D60293ECD2E348E69B99D0CC /* libPods-HellaCellsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		729762641922AE3B003C31B5 = {
+		728B987C19EEEFEB000F274D = {
 			isa = PBXGroup;
 			children = (
-				729762761922AE3B003C31B5 /* HellaCells */,
-				7297628F1922AE3B003C31B5 /* HellaCellsTests */,
-				7297626F1922AE3B003C31B5 /* Frameworks */,
-				7297626E1922AE3B003C31B5 /* Products */,
-				AB2E638354A74892BE7EB51F /* Pods-HellaCells.xcconfig */,
-				42C03A7F3E944D4387932116 /* Pods-HellaCellsTests.xcconfig */,
+				728B988719EEEFEB000F274D /* HellaCells */,
+				728B98A119EEEFEB000F274D /* HellaCellsTests */,
+				728B988619EEEFEB000F274D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7297626E1922AE3B003C31B5 /* Products */ = {
+		728B988619EEEFEB000F274D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7297626D1922AE3B003C31B5 /* HellaCells.app */,
-				729762881922AE3B003C31B5 /* HellaCellsTests.xctest */,
+				728B988519EEEFEB000F274D /* HellaCells.app */,
+				728B989E19EEEFEB000F274D /* HellaCellsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7297626F1922AE3B003C31B5 /* Frameworks */ = {
+		728B988719EEEFEB000F274D /* HellaCells */ = {
 			isa = PBXGroup;
 			children = (
-				729762701922AE3B003C31B5 /* Foundation.framework */,
-				729762721922AE3B003C31B5 /* CoreGraphics.framework */,
-				729762741922AE3B003C31B5 /* UIKit.framework */,
-				729762891922AE3B003C31B5 /* XCTest.framework */,
-				B49F40C52B514FF39D8EA116 /* libPods-HellaCells.a */,
-				2C20566C11B148CEA2D84283 /* libPods-HellaCellsTests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		729762761922AE3B003C31B5 /* HellaCells */ = {
-			isa = PBXGroup;
-			children = (
-				729762B11923C058003C31B5 /* Storyboard.storyboard */,
-				729762B01923BED1003C31B5 /* controllers */,
-				7297627F1922AE3B003C31B5 /* FISAppDelegate.h */,
-				729762801922AE3B003C31B5 /* FISAppDelegate.m */,
-				729762821922AE3B003C31B5 /* Images.xcassets */,
-				729762771922AE3B003C31B5 /* Supporting Files */,
+				728B988C19EEEFEB000F274D /* AppDelegate.h */,
+				728B988D19EEEFEB000F274D /* AppDelegate.m */,
+				728B988F19EEEFEB000F274D /* ViewController.h */,
+				728B989019EEEFEB000F274D /* ViewController.m */,
+				728B989219EEEFEB000F274D /* Main.storyboard */,
+				728B989519EEEFEB000F274D /* Images.xcassets */,
+				728B989719EEEFEB000F274D /* LaunchScreen.xib */,
+				728B988819EEEFEB000F274D /* Supporting Files */,
 			);
 			path = HellaCells;
 			sourceTree = "<group>";
 		};
-		729762771922AE3B003C31B5 /* Supporting Files */ = {
+		728B988819EEEFEB000F274D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				729762781922AE3B003C31B5 /* HellaCells-Info.plist */,
-				729762791922AE3B003C31B5 /* InfoPlist.strings */,
-				7297627C1922AE3B003C31B5 /* main.m */,
-				7297627E1922AE3B003C31B5 /* HellaCells-Prefix.pch */,
+				728B988919EEEFEB000F274D /* Info.plist */,
+				728B988A19EEEFEB000F274D /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7297628F1922AE3B003C31B5 /* HellaCellsTests */ = {
+		728B98A119EEEFEB000F274D /* HellaCellsTests */ = {
 			isa = PBXGroup;
 			children = (
-				729762A81922C674003C31B5 /* FISViewSpec.m */,
-				729762901922AE3B003C31B5 /* Supporting Files */,
+				728B98A419EEEFEB000F274D /* HellaCellsTests.m */,
+				728B98A219EEEFEB000F274D /* Supporting Files */,
 			);
 			path = HellaCellsTests;
 			sourceTree = "<group>";
 		};
-		729762901922AE3B003C31B5 /* Supporting Files */ = {
+		728B98A219EEEFEB000F274D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				729762911922AE3B003C31B5 /* HellaCellsTests-Info.plist */,
-				729762921922AE3B003C31B5 /* InfoPlist.strings */,
+				728B98A319EEEFEB000F274D /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		729762B01923BED1003C31B5 /* controllers */ = {
-			isa = PBXGroup;
-			children = (
-				729762AA1923BEC9003C31B5 /* FISHellaDetailViewController.h */,
-				729762AB1923BEC9003C31B5 /* FISHellaDetailViewController.m */,
-				729762AC1923BEC9003C31B5 /* FISHellaMasterTableViewController.h */,
-				729762AD1923BEC9003C31B5 /* FISHellaMasterTableViewController.m */,
-			);
-			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7297626C1922AE3B003C31B5 /* HellaCells */ = {
+		728B988419EEEFEB000F274D /* HellaCells */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 729762991922AE3B003C31B5 /* Build configuration list for PBXNativeTarget "HellaCells" */;
+			buildConfigurationList = 728B98A819EEEFEB000F274D /* Build configuration list for PBXNativeTarget "HellaCells" */;
 			buildPhases = (
-				720614D4BF37472F8AACF137 /* Check Pods Manifest.lock */,
-				729762691922AE3B003C31B5 /* Sources */,
-				7297626A1922AE3B003C31B5 /* Frameworks */,
-				7297626B1922AE3B003C31B5 /* Resources */,
-				BD3AE0C512D94C738BAA8326 /* Copy Pods Resources */,
+				728B988119EEEFEB000F274D /* Sources */,
+				728B988219EEEFEB000F274D /* Frameworks */,
+				728B988319EEEFEB000F274D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -196,197 +136,134 @@
 			);
 			name = HellaCells;
 			productName = HellaCells;
-			productReference = 7297626D1922AE3B003C31B5 /* HellaCells.app */;
+			productReference = 728B988519EEEFEB000F274D /* HellaCells.app */;
 			productType = "com.apple.product-type.application";
 		};
-		729762871922AE3B003C31B5 /* HellaCellsTests */ = {
+		728B989D19EEEFEB000F274D /* HellaCellsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7297629C1922AE3B003C31B5 /* Build configuration list for PBXNativeTarget "HellaCellsTests" */;
+			buildConfigurationList = 728B98AB19EEEFEB000F274D /* Build configuration list for PBXNativeTarget "HellaCellsTests" */;
 			buildPhases = (
-				DD6A2E7D7D9144AC829E5FDC /* Check Pods Manifest.lock */,
-				729762841922AE3B003C31B5 /* Sources */,
-				729762851922AE3B003C31B5 /* Frameworks */,
-				729762861922AE3B003C31B5 /* Resources */,
-				BFD3F00B61DE4AFABB772296 /* Copy Pods Resources */,
+				728B989A19EEEFEB000F274D /* Sources */,
+				728B989B19EEEFEB000F274D /* Frameworks */,
+				728B989C19EEEFEB000F274D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7297628E1922AE3B003C31B5 /* PBXTargetDependency */,
+				728B98A019EEEFEB000F274D /* PBXTargetDependency */,
 			);
 			name = HellaCellsTests;
 			productName = HellaCellsTests;
-			productReference = 729762881922AE3B003C31B5 /* HellaCellsTests.xctest */;
+			productReference = 728B989E19EEEFEB000F274D /* HellaCellsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		729762651922AE3B003C31B5 /* Project object */ = {
+		728B987D19EEEFEB000F274D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = FIS;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = FIS;
 				TargetAttributes = {
-					729762871922AE3B003C31B5 = {
-						TestTargetID = 7297626C1922AE3B003C31B5;
+					728B988419EEEFEB000F274D = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					728B989D19EEEFEB000F274D = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 728B988419EEEFEB000F274D;
 					};
 				};
 			};
-			buildConfigurationList = 729762681922AE3B003C31B5 /* Build configuration list for PBXProject "HellaCells" */;
+			buildConfigurationList = 728B988019EEEFEB000F274D /* Build configuration list for PBXProject "HellaCells" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 729762641922AE3B003C31B5;
-			productRefGroup = 7297626E1922AE3B003C31B5 /* Products */;
+			mainGroup = 728B987C19EEEFEB000F274D;
+			productRefGroup = 728B988619EEEFEB000F274D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7297626C1922AE3B003C31B5 /* HellaCells */,
-				729762871922AE3B003C31B5 /* HellaCellsTests */,
+				728B988419EEEFEB000F274D /* HellaCells */,
+				728B989D19EEEFEB000F274D /* HellaCellsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7297626B1922AE3B003C31B5 /* Resources */ = {
+		728B988319EEEFEB000F274D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7297627B1922AE3B003C31B5 /* InfoPlist.strings in Resources */,
-				729762831922AE3B003C31B5 /* Images.xcassets in Resources */,
-				729762B21923C058003C31B5 /* Storyboard.storyboard in Resources */,
+				728B989419EEEFEB000F274D /* Main.storyboard in Resources */,
+				728B989919EEEFEB000F274D /* LaunchScreen.xib in Resources */,
+				728B989619EEEFEB000F274D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		729762861922AE3B003C31B5 /* Resources */ = {
+		728B989C19EEEFEB000F274D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				729762941922AE3B003C31B5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		720614D4BF37472F8AACF137 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BD3AE0C512D94C738BAA8326 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-HellaCells-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BFD3F00B61DE4AFABB772296 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-HellaCellsTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DD6A2E7D7D9144AC829E5FDC /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		729762691922AE3B003C31B5 /* Sources */ = {
+		728B988119EEEFEB000F274D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7297627D1922AE3B003C31B5 /* main.m in Sources */,
-				729762AF1923BEC9003C31B5 /* FISHellaMasterTableViewController.m in Sources */,
-				729762811922AE3B003C31B5 /* FISAppDelegate.m in Sources */,
-				729762AE1923BEC9003C31B5 /* FISHellaDetailViewController.m in Sources */,
+				728B989119EEEFEB000F274D /* ViewController.m in Sources */,
+				728B988E19EEEFEB000F274D /* AppDelegate.m in Sources */,
+				728B988B19EEEFEB000F274D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		729762841922AE3B003C31B5 /* Sources */ = {
+		728B989A19EEEFEB000F274D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				729762A91922C674003C31B5 /* FISViewSpec.m in Sources */,
+				728B98A519EEEFEB000F274D /* HellaCellsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7297628E1922AE3B003C31B5 /* PBXTargetDependency */ = {
+		728B98A019EEEFEB000F274D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7297626C1922AE3B003C31B5 /* HellaCells */;
-			targetProxy = 7297628D1922AE3B003C31B5 /* PBXContainerItemProxy */;
+			target = 728B988419EEEFEB000F274D /* HellaCells */;
+			targetProxy = 728B989F19EEEFEB000F274D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		729762791922AE3B003C31B5 /* InfoPlist.strings */ = {
+		728B989219EEEFEB000F274D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7297627A1922AE3B003C31B5 /* en */,
+				728B989319EEEFEB000F274D /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		729762921922AE3B003C31B5 /* InfoPlist.strings */ = {
+		728B989719EEEFEB000F274D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				729762931922AE3B003C31B5 /* en */,
+				728B989819EEEFEB000F274D /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		729762971922AE3B003C31B5 /* Debug */ = {
+		728B98A619EEEFEB000F274D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -401,9 +278,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -418,13 +297,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		729762981922AE3B003C31B5 /* Release */ = {
+		728B98A719EEEFEB000F274D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -439,10 +319,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -450,113 +332,96 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		7297629A1922AE3B003C31B5 /* Debug */ = {
+		728B98A919EEEFEB000F274D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB2E638354A74892BE7EB51F /* Pods-HellaCells.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HellaCells/HellaCells-Prefix.pch";
-				INFOPLIST_FILE = "HellaCells/HellaCells-Info.plist";
+				INFOPLIST_FILE = HellaCells/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		7297629B1922AE3B003C31B5 /* Release */ = {
+		728B98AA19EEEFEB000F274D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB2E638354A74892BE7EB51F /* Pods-HellaCells.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HellaCells/HellaCells-Prefix.pch";
-				INFOPLIST_FILE = "HellaCells/HellaCells-Info.plist";
+				INFOPLIST_FILE = HellaCells/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		7297629D1922AE3B003C31B5 /* Debug */ = {
+		728B98AC19EEEFEB000F274D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42C03A7F3E944D4387932116 /* Pods-HellaCellsTests.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HellaCells.app/HellaCells";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HellaCells/HellaCells-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "HellaCellsTests/HellaCellsTests-Info.plist";
+				INFOPLIST_FILE = HellaCellsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HellaCells.app/HellaCells";
 			};
 			name = Debug;
 		};
-		7297629E1922AE3B003C31B5 /* Release */ = {
+		728B98AD19EEEFEB000F274D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42C03A7F3E944D4387932116 /* Pods-HellaCellsTests.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HellaCells.app/HellaCells";
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HellaCells/HellaCells-Prefix.pch";
-				INFOPLIST_FILE = "HellaCellsTests/HellaCellsTests-Info.plist";
+				INFOPLIST_FILE = HellaCellsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HellaCells.app/HellaCells";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		729762681922AE3B003C31B5 /* Build configuration list for PBXProject "HellaCells" */ = {
+		728B988019EEEFEB000F274D /* Build configuration list for PBXProject "HellaCells" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				729762971922AE3B003C31B5 /* Debug */,
-				729762981922AE3B003C31B5 /* Release */,
+				728B98A619EEEFEB000F274D /* Debug */,
+				728B98A719EEEFEB000F274D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		729762991922AE3B003C31B5 /* Build configuration list for PBXNativeTarget "HellaCells" */ = {
+		728B98A819EEEFEB000F274D /* Build configuration list for PBXNativeTarget "HellaCells" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7297629A1922AE3B003C31B5 /* Debug */,
-				7297629B1922AE3B003C31B5 /* Release */,
+				728B98A919EEEFEB000F274D /* Debug */,
+				728B98AA19EEEFEB000F274D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		7297629C1922AE3B003C31B5 /* Build configuration list for PBXNativeTarget "HellaCellsTests" */ = {
+		728B98AB19EEEFEB000F274D /* Build configuration list for PBXNativeTarget "HellaCellsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7297629D1922AE3B003C31B5 /* Debug */,
-				7297629E1922AE3B003C31B5 /* Release */,
+				728B98AC19EEEFEB000F274D /* Debug */,
+				728B98AD19EEEFEB000F274D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 729762651922AE3B003C31B5 /* Project object */;
+	rootObject = 728B987D19EEEFEB000F274D /* Project object */;
 }
