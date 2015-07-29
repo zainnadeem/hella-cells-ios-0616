@@ -1,7 +1,4 @@
----
-  tags: table-views, beginner, views, todo
-  languages: objc
----
+
 
 Getting comfortable with UITableViewController
 
