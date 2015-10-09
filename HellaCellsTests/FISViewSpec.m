@@ -18,7 +18,7 @@
 
 SpecBegin(FISView)
 
-describe(@"integration tests", ^{
+describe(@"User Interface", ^{
     
     beforeAll(^{
 
@@ -28,19 +28,22 @@ describe(@"integration tests", ^{
 
     });
     
-    it(@"should have 100 cells, each with the correct number", ^{
-        for(int x = 0; x < 5; x++)
+    it(@"should present a table view controller with 100 cells labeled from 1 to 100", ^{
+        
+        // tests five random cells for compliance
+        for (NSUInteger x = 0; x < 5; x++)
         {
-            NSInteger randomRow =1 + arc4random()%100;
+            NSInteger randomRow = 1 + arc4random_uniform(100);
             NSIndexPath *ip = [NSIndexPath indexPathForRow:randomRow inSection:0];
             UITableViewCell *cell = [tester waitForCellAtIndexPath:ip inTableViewWithAccessibilityIdentifier:@"Table"];
             NSString *correctString = [NSString stringWithFormat:@"%lu", randomRow+1];
+            
             expect(cell.textLabel.text).to.equal(correctString);
         }
     });
     
-    it(@"should present a detail view with the correct number in a large font",^{
-        NSInteger randomRow = 1 + arc4random()%100;
+    it(@"should present a detail view controller when a cell is tapped that displays the correct digits in a large font",^{
+        NSInteger randomRow = 1 + arc4random_uniform(100);
         NSIndexPath *ip = [NSIndexPath indexPathForRow:randomRow inSection:0];
         
         [tester tapRowAtIndexPath:ip inTableViewWithAccessibilityIdentifier:@"Table"];
