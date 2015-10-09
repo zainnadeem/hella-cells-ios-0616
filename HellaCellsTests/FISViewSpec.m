@@ -34,7 +34,7 @@ describe(@"integration tests", ^{
             NSInteger randomRow =1 + arc4random()%100;
             NSIndexPath *ip = [NSIndexPath indexPathForRow:randomRow inSection:0];
             UITableViewCell *cell = [tester waitForCellAtIndexPath:ip inTableViewWithAccessibilityIdentifier:@"Table"];
-            NSString *correctString = [NSString stringWithFormat:@"%d", randomRow+1];
+            NSString *correctString = [NSString stringWithFormat:@"%lu", randomRow+1];
             expect(cell.textLabel.text).to.equal(correctString);
         }
     });
@@ -46,7 +46,7 @@ describe(@"integration tests", ^{
         [tester tapRowAtIndexPath:ip inTableViewWithAccessibilityIdentifier:@"Table"];
         UILabel *label = (UILabel *)[tester waitForViewWithAccessibilityLabel:@"bigNumber"];
         
-        expect(label.text).to.equal([NSString stringWithFormat:@"%d", randomRow+1]);
+        expect(label.text).to.equal([NSString stringWithFormat:@"%lu", randomRow+1]);
         expect(label.font.pointSize).to.beGreaterThanOrEqualTo(50.0f);
         
     });
