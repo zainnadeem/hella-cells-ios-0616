@@ -9,6 +9,7 @@
 #import "FISHellaDetailViewController.h"
 
 @interface FISHellaDetailViewController ()
+
 @property (weak, nonatomic) IBOutlet UILabel *numberLabel;
 
 @end

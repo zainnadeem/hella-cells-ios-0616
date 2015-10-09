@@ -54,7 +54,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"hellaCell"];
-    cell.textLabel.text = [NSString stringWithFormat:@"%d",indexPath.row + 1];
+    cell.textLabel.text = [NSString stringWithFormat:@"%lu",indexPath.row + 1];
     
     // Configure the cell...
     
