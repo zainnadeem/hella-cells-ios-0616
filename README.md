@@ -9,4 +9,4 @@
 2. Program the tableview to load with 100 cells, each numbered 1 through 100.
 3. When a cell is tapped, it should take the user to a new screen (a subclass of `UIViewController` named `FISHellaDetailViewController`) with the same number as the tapped cell displayed full screen. Set the `UILabel's **accessibility label** (not the identifier) to "bigNumber".
 
-<a href='https://learn.co/lessons/hella-cells' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/hella-cells' title='Hella Cells'>Hella Cells</a> on Learn.co and start learning to code for free.</p>
